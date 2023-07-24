@@ -10,6 +10,9 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/juan', (req, res) => {
+  res.send('Hello Juan!');
+});
 app.get('/kresna', (req, res) => {
   res.send('hello')
 })
