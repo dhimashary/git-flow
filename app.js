@@ -13,6 +13,9 @@ app.get('/', (req, res) => {
 app.get('/juan', (req, res) => {
   res.send('Hello Juan!');
 });
+app.get('/kresna', (req, res) => {
+  res.send('hello')
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
